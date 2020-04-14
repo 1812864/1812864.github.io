@@ -4,85 +4,120 @@
 	<meta charset="UTF-8">
 	<title>Learn Web Design</title>
     <style>
-        * {
-            margin: 0px;
-            padding: 0px;
-        }
 
         body {
             font-family: sans-serif;
-            font-size: 18px;
+            font-size: 20px;
+            background-color: #d3f2ac;
+            padding: 50px 80px 50px 80px;
+
         }
         h1 {
             font-style: italic;
             color: white;
         }
-        h2 {
-            color: green;
-        }
-        h3 {
+        h1  {
             color: purple;
+            text-shadow: 2px 2.5px 0.5px silver;
         }
+        h2 {
+            font-family: sans-serif;
+        }
+
         ul.root li {
             text-decoration: none;
-            list-style: none;
+            list-style-type: none;
+          
         }
         a {
             color:#1c2aad;
             text-decoration: none;
+
+        }
+        a:visited {
+            color: blue;
+        }
+        a:hover {
+            text-decoration: none;
         }
         .boot {
             text-align: center;
+            
         }
-        #menu {
-            width: 800px;
+       h1.menu {
+            width: 900px;
             height: 50px;
-            background: #6d136a;
-            margin: 0px auto;
+            background: #bcf279;
+            margin: auto;
             padding: 10px 10px 0px 10px;
+        }
+        legend.str {
+            font-size: x-large;
+            font-family:sans-serif;
+            color: #0022ff;
+            font-weight: bold;
+             
+        }
+        legend.mtp {
+            font-size: large;
+             color: purple;
+             font-family:sans-serif;
+             
+           font-weight: bold;
         }
     </style>
 
 
 <body>
-    <div style="background-color:#999ede;padding:100px;">
-        <center><img src="abc.jpg" alt="hjhj" class="boot" height="400" width="820"></center>
-	<div id="menu">
-    <h1>TỔNG HỢP CÁC BÀI LAB MÔN THIẾT KẾ WEB</h1>   
-    </div>
+        <center><img src="abc.jpg" alt="hjhj" class="boot" height="auto" width="920"></center>
+    <h1 style="text-align: center;" class="menu">TỔNG HỢP CÁC BÀI LAB MÔN THIẾT KẾ WEB</h1>
+    <h2 style="text-align: center;">Họ tên: Huỳnh Văn Trung</h2>
+    <h2 style="text-align: center;">MSSV: 1812864</h2>
     <br>
-    <h2>Phần 1: HTML</h2>
-    <h3>Chương 4:</h3>
-        
-        <ul class="root">
+    <div style="background-color: #c2f288">
+    <fieldset>
+        <legend class="str">Phần 1: HTML</legend>
+        <fieldset>
+            <legend class="mtp">Chương 4: Creating a Simple Page</legend>
+            <ul class="root">
             <li><a title="Excercise 4-1" href="exer4-1.html">Excercise 4-1</a></li>
             <li><a title="Excercise 4-2" href="exer4-2.html">Excercise 4-2</a></li>
             <li><a title="Excercise 4-3" href="exer4-3.html">Excercise 4-3</a></li>
             <li><a title="Excercise 4-4" href="exer4-4.html">Excercise 4-4</a></li>
             <li><a title="Excercise 4-5" href="exer4-5.html">Excercise 4-5</a></li>
         </ul>
-    <h3>Chương 5:</h3>
+    </fieldset>
+    <fieldset>
+    <legend class="mtp">Chương 5: Marking Up Text</legend>
         <ul class="root">
             <li><a title="Excercise 5-1" href="exer5-1.html">Excercise 5-1</a></li>
             <li><a title="Excercise 5-2" href="exer5-2.html">Excercise 5-2</a></li>
             <li><a title="Excercise 5-3" href="exer5-3.html">Excercise 5-3</a></li>
         </ul> 
-    <h3>Chương 6:</h3>
+    </fieldset>
+    <fieldset>
+    <legend class="mtp">Chương 6: Adding Links</legend>
         <ul class="root">
             <li><a title="Excercise 6-1 to 6-7" href="exer6-1.html">Excercise 6-1 to 6-7</a></li>
     
             <li><a title="Excercise 6-8" href="exer6-8.html"> Excercise 6-8 </a> </li>
         </ul>
-    <h3>Chương 7:</h3>
+    </fieldset>
+    <fieldset>
+    <legend class="mtp">Chương 7: Adding Imgaes</legend>
         <ul class="root">
             <li><a title="Excercise 7-1" href="exer4-2 7-1.html">Excercise 7-1</a></li>
         </ul>
-    <h3>Chương 8:</h3>  
+    </fieldset>
+    <fieldset>
+    <legend class="mtp">Chương 8: Table Markup</legend>
         <ul class="root">
             <li><a title="Excercise 8-1 to 8-4" href="exer8-1">Excercise 8-1 to 8-4</a></li>
         </ul>
+    </fieldset>
 
-    <h3>Chương 9:</h3>
+    <fieldset>
+        <legend class="mtp">Chương 9: Forms</legend>
         <ul class="root">
             <li><a title="Excercise 9-1" href="exer9-1">Excercise 9-1</a></li>
         </ul>
@@ -95,15 +130,19 @@
         <ul class="root">
             <li><a title="Excercise 9-4" href="exer9-4">Excercise 9-4</a></li>
         </ul>
-    
-<hr>
-        <h2>Phần 2: CSS</h2>
-        <h3>Chương 11:</h3>
+    </fieldset>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend class="str">Phần 2: CSS</legend>
+        <fieldset>
+        <legend class="mtp">Chương 11: Cascading Style Sheets Orientation</legend>
         <ul class="root">
             <li><a title="Excercise 11-1" href="exer11-1">Excercise 11-1</a></li>
             <li><a title="Excercise 11-2" href="exer11-2">Excercise 11-2</a></li>
-        </ul>
-        <h3>Chương 12:</h3>
+        </ul></fieldset>
+        <fieldset>
+        <legend class="mtp">Chương 12: Formatting Text</legend>
           <ul class="root">
             <li><a title="Excercise 12-1" href="exer12-1">Excercise 12-1</a></li>
             <li><a title="Excercise 12-2" href="exer12-2">Excercise 12-2</a></li>
@@ -112,8 +151,21 @@
             <li><a title="Excercise 12-5" href="exer12-5">Excercise 12-5</a></li>
             <li><a title="Excercise 12-6" href="exer12-6">Excercise 12-6</a></li>
             <li><a title="Excercise 12-7" href="exer12-7">Excercise 12-7</a></li>
-        </ul>
-    </div>
+        </ul></fieldset>
+        <fieldset>
+        <legend class="mtp">Chương 13: Colors and Backgrounds</legend>
+          <ul class="root">
+            <li><a title="Excercise 13-1" href="exer13-1">Excercise 13-1</a></li>
+            <li><a title="Excercise 13-2" href="exer13-2">Excercise 13-2</a></li>
+            <li><a title="Excercise 13-3" href="exer13-3">Excercise 13-3</a></li>
+            <li><a title="Excercise 13-4" href="exer13-4">Excercise 13-4</a></li>
+            <li><a title="Excercise 13-5" href="exer13-5">Excercise 13-5</a></li>
+            <li><a title="Excercise 13-6" href="exer13-6">Excercise 13-6</a></li>
+            <li><a title="Excercise 13-7" href="exer13-7">Excercise 13-7</a></li>
+            <li><a title="Excercise 13-8" href="exer13-8">Excercise 13-8</a></li>
+        </ul></fieldset>
+    </fieldset>
+</div>
 	
 </body>
 </html>
